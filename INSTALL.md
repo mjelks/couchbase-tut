@@ -13,7 +13,12 @@ Couchbase Day Tutorial
 7. VirtualBox -> Preferences -> Network -> HostOnly Network
 	- Doubleclick avail. interface
 	- Add Host-Only interface if it doesn't already exist
-	- Set Adapter and DHCP server to: 
+	- Set Adapter to:
+		- 192.168.61.0
+		- 255.255.255.0
+		- [blank]
+		- 0 (IPv6 Network Mask Length) 
+	- and DHCP server to: 
 		- 192.168.61.100 (server address)
 		- 255.255.255.0  (server mask)
 		- 168.168.61.101 (lower address)
